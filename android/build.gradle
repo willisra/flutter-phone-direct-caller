@@ -31,6 +31,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 31
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     compileOptions{
         coreLibraryDesugaringEnabled  true
